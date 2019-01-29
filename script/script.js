@@ -117,14 +117,14 @@ var mySlider = (function () {
 
     };
 
-    Slider.prototype.toSlide = function (num) {
+    /*Slider.prototype.toSlide = function (num) {
         if(this.active>num) this.animateRight(true, function () {
             this.toSlide(num);
         }.bind(this));
         if(this.active<num) this.animateLeft(true, function () {
             this.toSlide(num);
         }.bind(this));
-    };
+    }; */
 
     return Slider;
 })();
